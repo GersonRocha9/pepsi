@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>Home | PepsiCo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#">
+          <img src="./assets/logo.png" alt="Pepsi Logo" />
+        </a>
+
+        <ul>
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#"> Products </a>
+          </li>
+          <li>
+            <a href="#"> What's New </a>
+          </li>
+          <li>
+            <a href="#"> Newsletter </a>
+          </li>
+
+          <li>
+            <a href="#"> Contact </a>
+          </li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="text-box">
+          <h2>
+            That's what <br />
+            <span>I like</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum exercitationem consectetur eaque. Cum
+            error, id voluptate fuga consequatur magni quaerat ea, eligendi harum natus facere eius. Sit quasi amet
+            commodi.
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+
+        <div class="img-box">
+          <img src="./assets/pepsi001.png" alt="Pepsi 01" class="pepsi" />
+        </div>
+      </div>
+
+      <ul class="thumb">
+        <li>
+          <img
+            src="./assets/pepsi001.png"
+            onclick="imgSlider('./assets/pepsi001.png'), changeBgColor('#0062be')"
+            alt="Blue Pepsi"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/pepsi002.png"
+            onclick="imgSlider( './assets/pepsi002.png'), changeBgColor('#ed0223')"
+            alt="Grey Pepsi"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/pepsi003.png"
+            onclick="imgSlider( './assets/pepsi003.png'), changeBgColor('#000')"
+            alt="Red Pepsi"
+          />
+        </li>
+      </ul>
+
+      <ul class="sci">
+        <li>
+          <a href="https://www.facebook.com/PepsiBrasil">
+            <img src="./assets/facebook.png" alt="Go to Pepsi Facebook Page" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/pepsi/">
+            <img src="./assets/instagram.png" alt="Go to Pepsi Instagram Page" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/pepsibr?lang=en">
+            <img src="./assets/twitter.png" alt="Go to Pepsi Twitter Page" />
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
